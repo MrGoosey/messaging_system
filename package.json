@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "An end-to-end encrypted messaging service",
   "main": "config.js",
-  "type": "module",
   "scripts": {
     "test": ""
   },

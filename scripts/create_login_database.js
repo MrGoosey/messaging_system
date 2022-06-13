@@ -1,11 +1,10 @@
-import { ip } from "../config.js"
-import { createRequire } from "module"
-const require = createRequire(import.meta.url)
+var config = require('../config.json')
 var mysql = require('mysql')
 
 var con = mysql.createConnection({
-    host: ip,
-    user: "user"
+    host: config.ip,
+    user: config.user,
+    password: config.password
 })
 
 con.connect(function (err) {
