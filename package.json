@@ -1,0 +1,23 @@
+{
+  "name": "messaging_system",
+  "version": "1.0.0",
+  "description": "An end-to-end encrypted messaging service",
+  "main": "config.js",
+  "type": "module",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrGoosey/messaging_system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrGoosey/messaging_system/issues"
+  },
+  "homepage": "https://github.com/MrGoosey/messaging_system#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
